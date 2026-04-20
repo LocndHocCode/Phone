@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thu mua iPhone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>📱 THU MUA IPHONE</h2>
+</header>
+
+<div class="container">
+    <h1>Check giá iPhone</h1>
+
+    <input type="file" id="images" multiple>
+
+    <h3>Chọn model</h3>
+    <select id="model">
+        <option value="iphone 11 64">iPhone 11 64GB</option>
+        <option value="iphone 12 128">iPhone 12 128GB</option>
+        <option value="iphone 13 128">iPhone 13 128GB</option>
+        <option value="iphone 14 128">iPhone 14 128GB</option>
+    </select>
+
+    <h3>Pin (%)</h3>
+    <input type="number" id="battery" placeholder="VD: 85">
+
+    <h3>Ngoại hình</h3>
+    <select id="damage">
+        <option value="đẹp">Đẹp</option>
+        <option value="nhẹ">Trầy nhẹ</option>
+        <option value="viền">Trầy viền</option>
+        <option value="nặng">Móp / nặng</option>
+    </select>
+
+    <h3>Sửa chữa</h3>
+    <select id="repair">
+        <option value="zin">Zin</option>
+        <option value="pin">Đã thay pin</option>
+        <option value="màn">Đã thay màn</option>
+        <option value="main">Main sửa</option>
+    </select>
+
+    <button onclick="calculate()">CHECK GIÁ</button>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
